@@ -14,7 +14,7 @@ time.sleep(2)
 print("\n Dealing first card...\n")
 time.sleep(2)
 
-lstcards = ["Ace","2","3","4","5","6","7","8","9","Jack","Queen","King"]
+lstcards = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
 random.shuffle(lstcards)
 
 fircard = lstcards[0]
@@ -60,7 +60,7 @@ time.sleep(2)
 print("\n Dealer dealing...\n")
 time.sleep(2)
 
-lstcards = ["Ace","2","3","4","5","6","7","8","9","Jack","Queen","King"]
+lstcards = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
 random.shuffle(lstcards)
 
 fircard = lstcards[0]
@@ -117,7 +117,7 @@ while True:
     print(f"\n Dealing for turn {turns}...\n")
     time.sleep(2)
 
-    lstcards = ["Ace","2","3","4","5","6","7","8","9","Jack","Queen","King"]
+    lstcards = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
     random.shuffle(lstcards)
 
     seccard = lstcards[0]
@@ -195,7 +195,7 @@ while True:
     print("\n Dealing for dealer...\n")
     time.sleep(2)
 
-    lstcards = ["Ace","2","3","4","5","6","7","8","9","Jack","Queen","King"]
+    lstcards = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
     random.shuffle(lstcards)
 
     fircard = lstcards[0]
